@@ -55,7 +55,7 @@ export function voronoiMapSimulation(data) {
   //end: internals/simulation
 
   //begin: algorithm conf.
-  const HANDLE_OVERWEIGHTED_VARIANT = 1; // this option still exists 'cause for further experiments
+  const HANDLE_OVERWEIGHTED_VARIANT = 0; // this option still exists 'cause for further experiments
   const HANLDE_OVERWEIGHTED_MAX_ITERATION_COUNT = 1000; // max number of tries to handle overweigthed sites
   var handleOverweighted;
   //end: algorithm conf.
