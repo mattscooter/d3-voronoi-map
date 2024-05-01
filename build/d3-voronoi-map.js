@@ -860,6 +860,7 @@
 
   exports.voronoiMapSimulation = voronoiMapSimulation;
   exports.voronoiMapInitialPositionRandom = randomInitialPosition;
+  exports.voronoiMapInitialWeightHalfAverage = halfAverageAreaInitialWeight;
   exports.voronoiMapInitialPositionPie = pie;
   exports.d3VoronoiMapError = d3VoronoiMapError;
 
